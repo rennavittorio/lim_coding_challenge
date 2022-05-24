@@ -1,0 +1,90 @@
+/* background */
+body{
+  background-image: url("background.jpg");
+  background-color: lightgrey; /*to use if the img is unaviable*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Helvetica;
+}
+
+/* to adjust extra-space beetween items */
+*{
+  margin-bottom: auto;
+}
+
+/* blurred box containg items */
+.blurred-box{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 5px;
+  width: 65%;
+  height: 50%;
+  padding:3% 0 3% 0;
+}
+
+/* to center all header's items */
+header{
+  text-align: center;
+}
+
+#logo-lime{
+  width: 15%;
+}
+
+h1{
+  color: #00dd00;
+}
+
+/* to create extra-space for items inside the blurred box */
+/* logo and h1 not needed */
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.buttons{
+  background-color: #00dd00;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* text customization */
+h2, p{
+  color: white;
+}
+
+h2{
+  display: inline-block;
+  font-size: 24px;
+}
+
+p{
+  font-size: 14px;
+}
+
+/* loader-bars customization */
+.status{
+  background-color: grey;
+  border-radius: 5px;
+  width: 100%;
+  height: 20px;
+}
+
+#status-1{
+  background-color: orange;
+  width: 25%;
+}
+
+#status-2{
+  background-color: #00dd00;
+  width: 50%;
+}
+
+#status-3{
+  background-color: red;
+  width: 10%;
+}
